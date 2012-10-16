@@ -107,22 +107,22 @@ def record_note(filename, channel, pitch, velocity, length = 3):
     outwav.close()
 
 instruments = [
-    'piano',
-    'marimba',
-    'organ',
-    'nylon_guitar',
-    'dist_guitar',
-    'aco_bass',
-    'syn_bass',
-    'strings',
-    'choir',
-    'brass',
-    'flute',
-    'synth',
-    'crystal',
-    'steel_drum',
-    'scream',
-    '808'
+    'piano',          # 001
+    'marimba',        # 013
+    'organ',          # 018
+    'nylon_guitar',   # 025
+    'dist_guitar',    # 031
+    'aco_bass',       # 033
+    'syn_bass',       # 039
+    'strings',        # 052
+    'choir',          # 053
+    'brass',          # 063
+    'flute',          # 073
+    'synth',          # 082
+    'crystal',        # 099
+    'steel_drum',     # 115
+    'scream',         # SFX/098
+    '808'             # Drums/026
     ]
 
 pitches = range(24, 107)
